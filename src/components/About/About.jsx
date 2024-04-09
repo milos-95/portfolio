@@ -1,44 +1,79 @@
 import { getImageUrl } from "../../utils";
 import styles from "./About.module.css";
 
+// icons
+import { FaLocationArrow } from "react-icons/fa6";
+import { LuMonitorSmartphone } from "react-icons/lu";
+import { CgWebsite } from "react-icons/cg";
+import { BsArrowUpSquareFill } from "react-icons/bs";
+import { TbApi } from "react-icons/tb";
+
 function About() {
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
-        <img
-          src={getImageUrl("about/aboutImage.png")}
-          alt="Me sitting with a laptop"
-          className={styles.aboutImage}
-        />
+        <div className={styles.leftContainer}>
+          <div className={styles.title}>
+            As a front-end developer, here are the skills and expertise I
+            possess:
+          </div>
+          <img
+            src={getImageUrl("about/aboutImage.png")}
+            alt="Me sitting with a laptop"
+            className={styles.aboutImage}
+          />
+        </div>
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
+            <FaLocationArrow className={styles.icons} />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
+              <h3>Custom Web Development</h3>
               <p>
-                I am a frontend developer with experience in building responsive
-                and optimized sites
+                Creating bespoke web applications tailored to the one&apos;s
+                specific needs, ensuring a seamless user experience across
+                devices
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
+            <LuMonitorSmartphone className={styles.icons} />
             <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
+              <h3>Responsive Design</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+                Developing websites that can adapt fluidly to various screen
+                sizes and devices, enhancing accessibility and user engagement
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/uiIcon.png")} alt="UI icon" />
+            <CgWebsite className={styles.icons} />
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
+              <h3>UI Design</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+                Crafting visually appealing and intuitive user interfaces with
+                modern design principles, enhancing usability and brand
+                perception
+              </p>
+            </div>
+          </li>
+          <li className={styles.aboutItem}>
+            <BsArrowUpSquareFill className={styles.icons} />
+            <div className={styles.aboutItemText}>
+              <h3>Performance Optimization</h3>
+              <p>
+                Optimizing website performance through efficient code
+                implementation, lazy loading, code splitting, and other
+                techniques, ensuring fast loading times
+              </p>
+            </div>
+          </li>
+          <li className={styles.aboutItem}>
+            <TbApi className={styles.icons} />
+            <div className={styles.aboutItemText}>
+              <h3>Third-party Integrations</h3>
+              <p>
+                Integrating third-party APIs and services seamlessly into React
+                applications to extend functionality and improve user experience
               </p>
             </div>
           </li>

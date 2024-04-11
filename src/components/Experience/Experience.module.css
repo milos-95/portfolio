@@ -9,10 +9,12 @@
 
 .title {
   color: var(--color-text);
-  font-size: 35px;
+  font-size: 2.3rem;
   font-weight: 700;
-  letter-spacing: 1.75px;
-  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
 }
 
 .content {
@@ -23,8 +25,9 @@
 }
 
 .skills {
-  width: 45%;
+  width: 35%;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 37px;
 }
@@ -116,5 +119,17 @@
   .history {
     width: 100%;
     gap: 9px;
+  }
+}
+
+@media screen and (min-width: 831px) and (max-width: 1550px) {
+  .skills {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1056px) and (max-width: 1550px) {
+  .skills {
+    width: 55%;
   }
 }

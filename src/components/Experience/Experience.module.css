@@ -122,13 +122,19 @@
   }
 }
 
-@media screen and (min-width: 831px) and (max-width: 1550px) {
+@media screen and (min-width: 739px) and (max-width: 830px) {
+  .skills {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 831px) {
   .skills {
     width: 70%;
   }
 }
 
-@media screen and (min-width: 1056px) and (max-width: 1550px) {
+@media screen and (min-width: 1056px) and (max-width: 1335px) {
   .skills {
     width: 55%;
   }

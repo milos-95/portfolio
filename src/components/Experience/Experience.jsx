@@ -1,5 +1,5 @@
 import styles from "./Experience.module.css";
-import skills from "../../data/skills.json";
+import technologies from "../../data/technologies.json";
 import { getImageUrl } from "../../utils";
 
 function Experience() {
@@ -9,8 +9,8 @@ function Experience() {
         Technologies I have experience working with
       </h2>
       <div className={styles.content}>
-        <div className={styles.skills}>
-          {skills.map((skill, id) => {
+        <div className={styles.technologies}>
+          {technologies.map((skill, id) => {
             return (
               <div key={id} className={styles.skill}>
                 <div className={styles.skillImageContainer}>

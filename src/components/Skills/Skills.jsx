@@ -1,5 +1,5 @@
 import { getImageUrl } from "../../utils";
-import styles from "./About.module.css";
+import styles from "./Skills.module.css";
 
 // icons
 import { FaLocationArrow } from "react-icons/fa6";
@@ -8,9 +8,9 @@ import { CgWebsite } from "react-icons/cg";
 import { BsArrowUpSquareFill } from "react-icons/bs";
 import { TbApi } from "react-icons/tb";
 
-function About() {
+function Skills() {
   return (
-    <section className={styles.container} id="about">
+    <section className={styles.container} id="skills">
       <div className={styles.content}>
         <div className={styles.leftContainer}>
           <div className={styles.title}>
@@ -18,15 +18,15 @@ function About() {
             possess:
           </div>
           <img
-            src={getImageUrl("about/aboutImage.png")}
+            src={getImageUrl("skills/skillsImage.png")}
             alt="Me sitting with a laptop"
-            className={styles.aboutImage}
+            className={styles.skillsImage}
           />
         </div>
-        <ul className={styles.aboutItems}>
-          <li className={styles.aboutItem}>
+        <ul className={styles.skillsItems}>
+          <li className={styles.skillsItem}>
             <FaLocationArrow className={styles.icons} />
-            <div className={styles.aboutItemText}>
+            <div className={styles.skillsItemText}>
               <h3>Custom Web Development</h3>
               <p>
                 Creating bespoke web applications tailored to the one&apos;s
@@ -35,9 +35,9 @@ function About() {
               </p>
             </div>
           </li>
-          <li className={styles.aboutItem}>
+          <li className={styles.skillsItem}>
             <LuMonitorSmartphone className={styles.icons} />
-            <div className={styles.aboutItemText}>
+            <div className={styles.skillsItemText}>
               <h3>Responsive Design</h3>
               <p>
                 Developing websites that can adapt fluidly to various screen
@@ -45,9 +45,9 @@ function About() {
               </p>
             </div>
           </li>
-          <li className={styles.aboutItem}>
+          <li className={styles.skillsItem}>
             <CgWebsite className={styles.icons} />
-            <div className={styles.aboutItemText}>
+            <div className={styles.skillsItemText}>
               <h3>UI Design</h3>
               <p>
                 Crafting visually appealing and intuitive user interfaces with
@@ -56,9 +56,9 @@ function About() {
               </p>
             </div>
           </li>
-          <li className={styles.aboutItem}>
+          <li className={styles.skillsItem}>
             <BsArrowUpSquareFill className={styles.icons} />
-            <div className={styles.aboutItemText}>
+            <div className={styles.skillsItemText}>
               <h3>Performance Optimization</h3>
               <p>
                 Optimizing website performance through efficient code
@@ -67,9 +67,9 @@ function About() {
               </p>
             </div>
           </li>
-          <li className={styles.aboutItem}>
+          <li className={styles.skillsItem}>
             <TbApi className={styles.icons} />
-            <div className={styles.aboutItemText}>
+            <div className={styles.skillsItemText}>
               <h3>Third-party Integrations</h3>
               <p>
                 Integrating third-party APIs and services seamlessly into React
@@ -83,4 +83,4 @@ function About() {
   );
 }
 
-export default About;
+export default Skills;

@@ -32,18 +32,18 @@
   align-items: center;
 }
 
-.aboutImage {
+.skillsImage {
   width: 70%;
 }
 
-.aboutItems {
+.skillsItems {
   color: var(--color-text);
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.aboutItem {
+.skillsItem {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -60,16 +60,16 @@
   transition: 0.4s;
 }
 
-.aboutItem:hover {
+.skillsItem:hover {
   background-size: 100% 100%;
 }
 
-.aboutItem h3 {
+.skillsItem h3 {
   font-size: 1.55rem;
   font-weight: 600;
 }
 
-.aboutItem p {
+.skillsItem p {
   font-size: 1.4rem;
 }
 
@@ -98,15 +98,15 @@
     flex-direction: column;
   }
 
-  .aboutImage {
+  .skillsImage {
     display: none;
   }
 
-  .aboutItems {
+  .skillsItems {
     margin-top: 29px;
   }
 
-  .aboutItem {
+  .skillsItem {
     padding-left: 0;
     padding-right: 0;
   }

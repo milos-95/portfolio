@@ -27,7 +27,7 @@ function Navbar() {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
           </li>
           <li>
             <a href="#experience">Experience</a>

@@ -24,7 +24,7 @@
   margin-top: 14px;
 }
 
-.skills {
+.technologies {
   width: 35%;
   display: flex;
   justify-content: center;
@@ -110,7 +110,7 @@
     gap: 34px;
   }
 
-  .skills {
+  .technologies {
     width: 100%;
     flex-direction: row;
     justify-content: center;
@@ -123,19 +123,19 @@
 }
 
 @media screen and (min-width: 739px) and (max-width: 830px) {
-  .skills {
+  .technologies {
     width: 75%;
   }
 }
 
 @media screen and (min-width: 831px) {
-  .skills {
+  .technologies {
     width: 70%;
   }
 }
 
 @media screen and (min-width: 1056px) and (max-width: 1335px) {
-  .skills {
+  .technologies {
     width: 55%;
   }
 }

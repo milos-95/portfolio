@@ -80,13 +80,9 @@
 
 .topBlur {
   position: absolute;
-  width: 50vw;
-  height: 50vw;
-  min-width: 350px;
-  min-height: 350px;
-  top: -128px;
-  left: -10vw;
-  border-radius: 764px;
+  width: 75vw;
+  height: 30vw;
+  left: 2vw;
   background: rgba(25, 55, 109, 0.7);
   filter: blur(100px);
   z-index: 0;

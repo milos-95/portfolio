@@ -17,12 +17,14 @@
 .title {
   font-size: 25px;
   font-weight: 700;
+  text-align: center;
 }
 
 .description {
   margin-top: 6px;
   font-size: 22px;
   font-weight: 400;
+  text-align: center;
 }
 
 .skills {

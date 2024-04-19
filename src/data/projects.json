@@ -1,25 +1,25 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "title": "BMI Calculator",
+    "imageSrc": "projects/bmi-calculator-js.png",
+    "description": "Based on height and weight inputs, the calculator will display the user's Body Mass Index, as well as the appropriate weight condition - ranging from Underweight to Obese.",
+    "skills": ["HTML", "CSS", "JavaScript"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "title": "Tic Tac Toe",
+    "imageSrc": "projects/tic-tac-toe-react.png",
+    "description": "A grid-based game where two players take turns marking Xs and Os in a 3x3 board. The goal is to align three of your symbols either horizontally, vertically, or diagonally before your opponent does.",
+    "skills": ["HTML", "CSS", "JS", "React"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "title": "Landmeter Geenen",
+    "imageSrc": "projects/landmeter-react.png",
+    "description": "A simple, responsive website for a surveying business. Crafted with a modern design and elegant interface, the website boasts three captivating pages: Home, Services, and Contact.",
+    "skills": ["HTML", "CSS", "React"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   }

@@ -109,7 +109,7 @@
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
-    justify-content: center;
+    justify-content: space-evenly;
     height: 80vh;
   }
 

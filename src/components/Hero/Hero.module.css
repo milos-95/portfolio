@@ -109,16 +109,16 @@
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
-    justify-content: space-evenly;
+    justify-content: center;
+    height: 80vh;
   }
 
   .title {
-    font-size: 3rem;
-    margin-top: 0px;
+    font-size: 3.2rem;
   }
 
   .description {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 
   .content {
@@ -135,6 +135,16 @@
   }
 
   .break {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 750px) {
+  .container {
+    justify-content: center;
+  }
+
+  .heroImg {
     display: none;
   }
 }

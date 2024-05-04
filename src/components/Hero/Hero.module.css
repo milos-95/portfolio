@@ -2,6 +2,7 @@
 
 .container {
   display: flex;
+  flex-direction: row;
   height: 762px;
   align-items: center;
   justify-content: space-between;
@@ -57,11 +58,14 @@
 }
 
 .heroImg {
-  width: 50%;
+  width: 25%;
+  aspect-ratio: 1/1.1;
+  border-radius: 50%;
+  margin-left: 60px;
   z-index: 1;
 
   animation-name: floating;
-  animation-duration: 3s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
@@ -110,6 +114,15 @@
 
   .content {
     align-items: center;
+  }
+
+  .description {
+    text-align: center;
+  }
+
+  .heroImg {
+    margin-left: 0px;
+    width: 38%;
   }
 
   .break {

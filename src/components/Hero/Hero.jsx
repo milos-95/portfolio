@@ -10,18 +10,18 @@ function Hero() {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I&apos;m Milos</h1>
         <p className={styles.description}>
-          A front-end developer with 1 year of experience using{" "}
+          A front-end developer with 6 months of experience using{" "}
           <FaReact className={styles.icons} /> React.{" "}
           <br className={styles.break}></br> With a keen eye for detail and a
-          drive for innovation, I specialize in creating dynamic web solutions
-          that blend creativity with cutting-edge technology.
+          drive for innovation, I focus on creating dynamic web solutions that
+          blend creativity with cutting-edge technology.
         </p>
-        <a href="mailto:myemail@gmail.com" className={styles.contactBtn}>
+        <a href="mailto:janicmilos95@gmail.com" className={styles.contactBtn}>
           Contact Me
         </a>
       </div>
       <img
-        src={getImageUrl("hero/heroImage.png")}
+        src={getImageUrl("hero/cvImage.png")}
         alt="Hero image of me"
         className={styles.heroImg}
       />

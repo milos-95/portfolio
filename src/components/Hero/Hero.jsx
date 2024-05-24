@@ -10,7 +10,7 @@ function Hero() {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I&apos;m Milos</h1>
         <p className={styles.description}>
-          A front-end developer with 6 months of experience using{" "}
+          A front-end developer with 7 months of experience using{" "}
           <FaReact className={styles.icons} /> React.{" "}
           <br className={styles.break}></br> With a keen eye for detail and a
           drive for innovation, I focus on creating dynamic web solutions that
@@ -21,7 +21,7 @@ function Hero() {
         </a>
       </div>
       <img
-        src={getImageUrl("hero/cvImage.png")}
+        src={getImageUrl("hero/hero-img-1.jpg")}
         alt="Hero image of me"
         className={styles.heroImg}
       />

@@ -18,5 +18,9 @@
   {
     "title": "Git",
     "imageSrc": "technologies/git.png"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "technologies/typescript.png"
   }
 ]
